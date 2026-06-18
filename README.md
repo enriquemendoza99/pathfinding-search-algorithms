@@ -16,17 +16,17 @@ grid-based warehouse to collect all items.
 ## Project Structure
 ```
 BFS.py                  — Breadth-First Search
-dfs.py                   — Depth-First Search
-dijkstra.py               — Dijkstra's Algorithm
-example.py                 — Template for implementing a new algorithm
-main.py                      — Single-scenario test harness (supports graphing)
-test_all_algorithms.py        — Full comparison across all 20 scenarios
-read_file.py                    — Parses scenario layout files
-tester.py                        — Builds adjacency list and validates paths
-scenarios/                         — Test scenario files (a0-a4, b0-b4, c0-c4, d0-d4)
-scenarios_graph/                     — Larger scenario set used for performance graphing
-graphs/                                — Saved performance comparison charts
-TEST_RESULTS.md                          — Full results and performance analysis
+dfs.py                  — Depth-First Search
+dijkstra.py             — Dijkstra's Algorithm
+example.py              — Template for implementing a new algorithm
+main.py                 — Single-scenario test harness (supports graphing)
+test_all_algorithms.py  — Full comparison across all 20 scenarios
+read_file.py            — Parses scenario layout files
+tester.py               — Builds adjacency list and validates paths
+scenarios/              — Test scenario files (a0-a4, b0-b4, c0-c4, d0-d4)
+scenarios_graph/        — Larger scenario set used for performance graphing
+graphs/                 — Saved performance comparison charts
+TEST_RESULTS.md         — Full results and performance analysis
 ```
 
 ## How to Run
